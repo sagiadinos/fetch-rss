@@ -19,7 +19,7 @@
 
  
 define('_debug_mode', false);
-define('_http_host', 'smil-control.de'); // make sure that not everyone can use this script to kill your traffic
+define('_http_host', ''); // enter a domain.tld to make sure that not everyone can use this script to kill your traffic
 
 // ===================================================
 
