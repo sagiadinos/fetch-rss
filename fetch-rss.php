@@ -38,7 +38,7 @@ if (empty(_http_host))
 {
 	die('set a http host');
 }
-if ($_SERVER['HTTP_HOST'] != _http_host)
+if (strpos($_SERVER['HTTP_HOST'], _http_host) === false)
 {
 	die('not correct http host');
 }
