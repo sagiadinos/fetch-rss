@@ -17,7 +17,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *************************************************************************************/// set parameters
 
- 
+header('Access-Control-Allow-Origin: *'); // deblock CORS
+
 define('_debug_mode', false);
 define('_http_host', ''); // enter a domain.tld to make sure that not everyone can use this script to kill your traffic
 
